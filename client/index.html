@@ -17,7 +17,7 @@
     <meta name="author" content="RobinLinus">
     <meta property="og:title" content="Snapdrop">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://snapdrop.net/">
+    <meta property="og:url" content="http://p2p.umarhadi.xyz/">
     <meta property="og:author" content="https://facebook.com/RobinLinus">
     <meta name="twitter:author" content="@RobinLinus">
     <meta name="twitter:card" content="summary_large_image">
@@ -62,7 +62,7 @@
     <!-- Peers -->
     <x-peers class="center"></x-peers>
     <x-no-peers>
-        <h2>Open Snapdrop on other devices to send files</h2>
+        <h2>Buka p2p.umarhadi.xyz di perangkat lainnya untuk kirim file</h2>
     </x-no-peers>
     <x-instructions desktop="Click to send files or right click to send a message" mobile="Tap to send files or long tap to send a message"></x-instructions>
     <!-- Footer -->
@@ -71,22 +71,22 @@
             <use xlink:href="#wifi-tethering" />
         </svg>
         <div id="displayName" placeholder="The easiest way to transfer data across devices"></div>
-        <div class="font-body2">You can be discovered by everyone on this network</div>
+        <div class="font-body2">Kamu ditemukan oleh semua pada jaringan ini (LAN)</div>
     </footer>
     <!-- Receive Dialog -->
     <x-dialog id="receiveDialog">
         <x-background class="full center">
             <x-paper shadow="2">
-                <h3>File Received</h3>
-                <div class="font-subheading" id="fileName">Filename</div>
+                <h3>File Diterima</h3>
+                <div class="font-subheading" id="fileName">Nama file</div>
                 <div class="font-body2" id="fileSize"></div>
                 <div class="row">
-                    <label for="autoDownload" class="grow">Ask to save each file before downloading</label>
+                    <label for="autoDownload" class="grow">Tanya untuk simpan setiap file sebelum mengunduh</label>
                     <input type="checkbox" id="autoDownload" checked="">
                 </div>
                 <div class="row-reverse">
-                    <a class="button" close id="download" title="Download File" autofocus>Save</a>
-                    <button class="button" close>Ignore</button>
+                    <a class="button" close id="download" title="Download File" autofocus>Simpan</a>
+                    <button class="button" close>Abaikan</button>
                 </div>
             </x-paper>
         </x-background>
@@ -96,11 +96,11 @@
         <form action="#">
             <x-background class="full center">
                 <x-paper shadow="2">
-                    <h3>Send a Message</h3>
+                    <h3>Kirim sebuah pesan</h3>
                     <div id="textInput" class="textarea" role="textbox" placeholder="Send a message" autocomplete="off" autofocus contenteditable></div>
                     <div class="row-reverse">
-                        <button class="button" type="submit" close>Send</button>
-                        <a class="button" close>Cancel</a>
+                        <button class="button" type="submit" close>Kirim</button>
+                        <a class="button" close>Batal</a>
                     </div>
                 </x-paper>
             </x-background>
@@ -110,18 +110,18 @@
     <x-dialog id="receiveTextDialog">
         <x-background class="full center">
             <x-paper shadow="2">
-                <h3>Message Received</h3>
+                <h3>Pesan diterima</h3>
                 <div class="font-subheading" id="text"></div>
                 <div class="row-reverse">
-                    <button class="button" id="copy" close autofocus>Copy</button>
-                    <button class="button" close>Close</button>
+                    <button class="button" id="copy" close autofocus>Salin</button>
+                    <button class="button" close>Tutup</button>
                 </div>
             </x-paper>
         </x-background>
     </x-dialog>
     <!-- Toast -->
     <div class="toast-container full center">
-        <x-toast class="row" shadow="1" id="toast">File Transfer Completed</x-toast>
+        <x-toast class="row" shadow="1" id="toast">Transfer file selesai</x-toast>
     </div>
     <!-- About Page -->
     <x-about id="about" class="full center column">
@@ -139,24 +139,14 @@
             <h1>Snapdrop</h1>
             <div class="font-subheading">The easiest way to transfer files across devices</div>
             <div class="row">
-                <a class="icon-button" target="_blank" href="https://github.com/RobinLinus/snapdrop" title="Snapdrop on Github" rel="noreferrer">
+                <a class="icon-button" target="_blank" href="https://github.com/umarhadi/snapdrop" title="Snapdrop on Github" rel="noreferrer">
                     <svg class="icon">
                         <use xlink:href="#github" />
                     </svg>
                 </a>
-                <a class="icon-button" target="_blank" href="https://www.paypal.com/donate?hosted_button_id=FTP9DXUR7LA7Q" title="Help cover the server costs!" rel="noreferrer">
-                    <svg class="icon">
-                        <use xlink:href="#monetarization" />
-                    </svg>
-                </a>
-                <a class="icon-button" target="_blank" href="https://twitter.com/intent/tweet?text=https://snapdrop.net%20by%20@robin_linus%20&" title="Tweet about Snapdrop" rel="noreferrer">
+                <a class="icon-button" target="_blank" href="https://twitter.com/umarhadi_s" title="Umar on Twitter" rel="noreferrer">
                     <svg class="icon">
                         <use xlink:href="#twitter" />
-                    </svg>
-                </a>
-                <a class="icon-button" target="_blank" href="https://github.com/RobinLinus/snapdrop/blob/master/docs/faq.md" title="Frequently asked questions" rel="noreferrer">
-                    <svg class="icon">
-                        <use xlink:href="#help-outline" />
                     </svg>
                 </a>
             </div>
