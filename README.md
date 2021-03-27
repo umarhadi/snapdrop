@@ -15,18 +15,4 @@ Have any questions? Read our [FAQ](/docs/faq.md).
 You can [host your own instance with docker](/docs/local-dev.md).
 
 
-## Support the Snapdrop Community
-Snapdrop is free. Still, we have to pay for the server. If you want to contribute, please use PayPal:
-
-[<img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif">](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FTP9DXUR7LA7Q&source=url)
-
-or Bitcoin:
-
-[<img src="https://coins.github.io/thx/logo-color-large-pill-320px.png" alt="CoinThx" width="200"/>](https://coins.github.io/thx/#1K9zQ8f4iTyhKyHWmiDKt21cYX2QSDckWB?label=Snapdrop&message=Thanks!%20Your%20contribution%20helps%20to%20keep%20Snapdrop%20free%20for%20everybody!) 
-
-Alternatively, you can become a [Github Sponsor](https://github.com/sponsors/RobinLinus).
-
-Thanks a lot for supporting free and open software!
-
-
  
